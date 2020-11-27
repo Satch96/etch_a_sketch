@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>
+            Etch-a-Sketch
+        </title>
+        <link href='https://fonts.googleapis.com/css?family=Faster One|Knewave' rel='stylesheet'>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id = "header">
+            <h1>
+                Etch-a-Sketch
+            </h1>
+        </div>
+        <div id="container">
+        </div>
+        <div id="info">
+            <form action="javascript:get_grid_size()">
+                <label for="value">Grid Size</label><br>
+                <input id="value" type="number" min="1" max="100"><br>
+                <button id="button" type="submit">Clear</button>
+            </form>
+        </div>
+        <script src="code.js"></script>
+    </body>
+</html>

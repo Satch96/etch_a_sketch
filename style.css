@@ -1,0 +1,47 @@
+.colour{
+    background-color: red;
+}
+
+.box{
+    display: inline-block;
+}
+
+#container{
+    display: inline-block;
+    border: 2px solid blue;
+    margin-left: 150px;
+    margin-top: 40px;
+    height: 640px;
+    width: 640px;
+    background-color: whitesmoke;
+}
+
+#info{
+    width: auto;
+    display: inline-block;
+    height: 640px;
+    width: 640px;
+    margin-left: 100px;
+    margin-top: 40px;
+    vertical-align: top;
+    padding: 10px;
+}
+
+#header{
+    display: block;
+    text-align: center;
+    margin-top: 60px;
+    margin-right: 200px;
+    font-family: "Faster One";
+    font-size: 50px;
+}
+
+label, button, input{
+    margin-bottom: 30px;
+    font-family: "Knewave";
+    font-size: 30px
+}
+
+body{
+    background-color: yellow;
+}
